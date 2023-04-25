@@ -1,0 +1,65 @@
+.sidebar{
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.sidebaritem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebartitle{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    color: tomato;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+
+.aboutimg{
+    margin-top: 15px;
+    width: 90%;
+}
+
+.para{
+    padding: 30px;
+    font-family: 'Lora', serif;
+}
+
+.sidebarlist{
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.sidebarlistitem{
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.sidebarsocial{
+    display: flex;
+    margin-top: 15px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebaricon{
+    padding: 16px;
+}
